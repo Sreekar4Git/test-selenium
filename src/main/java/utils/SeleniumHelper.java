@@ -18,6 +18,7 @@ public class SeleniumHelper {
 			System.out.println("not able to find/display element");
 		}
 	}
+
 	public static void clickElement(WebElement ele) {
 		
 		boolean b = ele.isDisplayed();
